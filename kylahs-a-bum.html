@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>KYLAHS A BUM</title>
+  <style>
+    body {
+      background: white;
+      text-align: center;
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      padding-top: 40px;
+    }
+
+    h1 {
+      font-size: 60px;
+      color: red;
+      animation: shake 0.4s infinite alternate;
+    }
+
+    @keyframes shake {
+      0% { transform: rotate(-2deg); }
+      100% { transform: rotate(2deg); }
+    }
+
+    .image-row {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-top: 30px;
+    }
+
+    .image-box {
+      border: 8px dashed hotpink;
+      padding: 10px;
+      animation: zoomy 1s infinite alternate;
+    }
+
+    @keyframes zoomy {
+      from { transform: scale(1); }
+      to { transform: scale(1.05); }
+    }
+
+    img {
+      width: 250px;
+      height: auto;
+    }
+
+    .caption {
+      font-size: 24px;
+      color: blue;
+      margin-top: 20px;
+      animation: floaty 2s ease-in-out infinite;
+    }
+
+    @keyframes floaty {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>KYLAHS A BUM</h1>
+
+  <div class="image-row">
+    <div class="image-box">
+      <img src="image (2).png" alt="Kylah being confused">
+      <div class="caption">"Bro what even is thinking?"</div>
+    </div>
+    <div class="image-box">
+      <img src="image (3).png" alt="Kylah looking for help">
+      <div class="caption">"Me looking for the brain I never had 🧠"</div>
+    </div>
+  </div>
+
+  <audio autoplay loop>
+    <source src="https://www.soundjay.com/human/sounds/laugh-1.mp3" type="audio/mpeg">
+  </audio>
+</body>
+</html>
